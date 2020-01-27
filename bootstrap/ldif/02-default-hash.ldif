@@ -1,0 +1,3 @@
+dn: cn=config
+replace: olcPasswordHash
+olcPasswordHash: {PBKDF2-SHA512}30000
