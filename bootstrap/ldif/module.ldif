@@ -1,0 +1,6 @@
+dn: cn=module{0},cn=config
+changeType: modify
+add: olcModuleLoad
+olcModuleLoad: pw-pbkdf2
+olcPasswordHash: {PBKDF2-SHA512}
+olcModulePath: /usr/lib/ldap/
